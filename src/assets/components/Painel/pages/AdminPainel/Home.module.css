@@ -1,0 +1,150 @@
+.container {
+    display: flex;
+    width: 70vw;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+  }
+  
+  .containerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .containerInfo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 50px;
+  }
+  
+  .containerInfo1 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .containerInfo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .totalizadores {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .totalizador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .totalizador:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fraseAleatoria {
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Tela pequena */
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 20px;
+  }
+  
+  .containerInfo1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .containerInfo1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .totalizadores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .totalizador {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+  }
+  
+  .fraseAleatoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px;
+  }
+}
+
+/* Tela média */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    justify-content: center;
+    width: 90vw;
+    margin: 20px;
+  }
+  
+  .containerInfo1 {
+    margin-right: 20px;
+  }
+  
+  .containerInfo1 img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .totalizadores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .totalizador {
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+
+  }
+  
+  .fraseAleatoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}

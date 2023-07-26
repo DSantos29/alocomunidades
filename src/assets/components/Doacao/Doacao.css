@@ -1,0 +1,98 @@
+.doarContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.doarTxt h1{
+    font-size: 1.8rem;
+    color:var(--titleColor);
+}
+
+.doarH1 {
+    border-bottom: #e8e8e8 2px solid;
+    width: 70%;
+    text-align: center;
+}
+.doarTxt p{
+    font-size: 1.1rem;
+}
+.doarConteudo h3{
+    font-size: 1.5rem;
+}
+.doarConteudo p{
+    font-size: 1.3  rem;
+}
+.doarTxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    text-align: justify;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 45px;    
+    border-radius: 5px;
+}
+.doarConteudo {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 75%;
+    height: fit-content;
+    padding: 50px 25px;
+    gap: 20px;
+    background-color: #f0f0f0;
+
+}
+
+.copiarInfo {
+    cursor: pointer;
+}
+
+.doarImg{ 
+    width: 50%;
+}
+
+.pixLogo {
+    width: 25vh;
+    margin: 0 auto;
+}
+
+
+.mensagemSucesso {
+    background-color: #e9ffd78f;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+   .doarContainer{
+    grid-template-columns: repeat(1, 1fr);
+    height: fit-content;
+    padding-bottom: 20px;
+   }
+   .doarConteudo{
+    margin-top: 45px;
+    border-radius: 30px;
+    width: 100%;
+   }
+   .doarTxt{
+    margin-top: 100px;
+    justify-content: center;
+    width: 100%;
+   }
+}
+
+@media only screen and  (max-width: 768px) {
+   
+}
+
+@media only screen and (max-width: 480px) {
+
+
+}

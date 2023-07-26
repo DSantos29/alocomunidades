@@ -1,0 +1,124 @@
+
+
+.containerCadastro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 5%;
+    width: 80%;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+}
+
+.containerCadastro h1 {
+    padding-bottom: 1%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.form label {
+    text-align: left;
+    margin-bottom: 1%;
+    font-size: 14px;
+}
+
+.loginTitulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090909;
+    color: #FFF;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+
+
+
+.form input {
+    border: none;
+    border-bottom: 1px solid #dadada;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1%;
+    padding-left: 3%;
+}
+
+.form input:focus {
+    outline: none;
+    border-bottom: 1px solid #68aeff;
+}
+
+.form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #6596f7;
+    border: 1px solid #6596f7;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 10px;
+}
+
+
+.btnAdmin{
+    display: flex;
+    justify-content: center;
+}
+
+.btnUserAdmin{
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+               -6px -6px 12px #ffffff;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.btnCE{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 768px) { 
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+    .containerCadastro {
+        width: 95%;
+        border-radius: 20px 20px 0 0;
+    }
+    .btnCE{
+        width: 70%;
+    }
+
+}

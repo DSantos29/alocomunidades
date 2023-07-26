@@ -1,0 +1,52 @@
+.painel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px 50px 50px;
+}
+
+.menu {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menuList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menuItem {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menuLink {
+    display: block;
+    padding: 12px 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .menuLink:hover {
+    color: #a1a1a1;
+  }
+  
+  @media screen and (max-width: 1040px) {
+    .menuList{
+      display: flex;
+      flex-direction: row;
+    }
+    .menuLink{
+      font-size: 70%;
+    }
+  }

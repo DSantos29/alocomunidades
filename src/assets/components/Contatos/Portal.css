@@ -1,0 +1,112 @@
+.container {
+  margin-top: 5%;
+}
+
+.titulo-form {
+  text-align: center;
+}
+
+.titulo-form h1 {
+  font-size:1.8rem;
+}
+.box-form {
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box-outros {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-outros > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form {
+  background-color:  #f0f0f0;
+  padding: 20px;
+  width: 400px;
+  border-radius: 5px
+}
+.subtitulo-form h2 {
+  font-size: 1.5rem;
+}
+
+.form > .form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box > input,
+textarea,
+button,
+label {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.form-box > input,
+textarea,
+button{
+  padding: 8px;
+}
+
+.form-box > input,
+textarea {
+  background-color: #fff;
+}
+
+.conceito {
+  margin: auto;
+  padding: 5px;
+}
+
+.icon {
+  font-size: 150%;
+}
+.button-form > button {
+  background-color: #efc900;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .contente {
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .titulo-form {
+    width: auto;
+  }
+
+  .box-form {
+    width: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .form {
+    margin: auto;
+    width: 400px;
+  }
+
+}
